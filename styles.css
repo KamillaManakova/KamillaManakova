@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {font-family: 'Roboto Condensed', sans-serif;}
+
+* {
+	box-sizing: border-box;
+}
+
+@media screen and (min-width: 1024px) {
+	.services_images {
+	flex-direction: row;
+
+}
+}
+
+@media screen and (max-width: 1023px) {
+	.services_images {
+	flex-direction: column;
+
+
+}
+
+.services_images img {
+    width: 100%;
+	margin-right: 0px;
+	height: 256px;
+
+}
+}
+
+
+@media screen and (max-width:767px) {
+	.services_images {
+	flex-direction: column;
+}
+}
+
+
+.services {
+	background-color: #1B2D37;
+	max-width: 1920px;
+	padding: 9% 11% 13%;
+}
+
+.services_text p {
+	font-size: 36px;
+	color: white;
+}
+
+.services .services_images {
+    display: flex;
+    flex-wrap: nowrap;
+	width: 100%;
+}
+
+.services .services_images .image {
+    width: 100%;
+    color: #fff;
+	margin-right: 30px;
+	height: 620px;
+	position: relative;
+
+}
+
+.services .services_images .image p {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	font-size: 20px;
+}
+ 
