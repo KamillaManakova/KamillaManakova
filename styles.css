@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Roboto+Condensed&display=swap');
 
 * {font-family: 'Roboto Condensed', sans-serif;}
 
@@ -7,34 +7,133 @@
 }
 
 @media screen and (min-width: 1024px) {
-	.services_images {
+	.services .container {
 	flex-direction: row;
 
 }
 }
 
-@media screen and (max-width: 1023px) {
-	.services_images {
-	flex-direction: column;
+@media (min-width: 768px)and (max-width: 1023px) {
+	.services .container {
+	container: column;
+	}
 
-
-}
-
-.services_images img {
-    width: 100%;
-	margin-right: 0px;
+.services .container .item {
+    max-width: 100%;
 	height: 256px;
 
-}
+    }
 }
 
 
-@media screen and (max-width:767px) {
-	.services_images {
+@media (min-width: 320px) and (max-width: 767px) {
+	.services .container {
 	flex-direction: column;
+		.services .container .item {
+		flex-basis:100%
+	}
+.advantages .container_about {
+	display: flex;
+	background-color: white;
+	margin-top: 100px;
 }
 }
 
+	.advantages .container {
+	flex-direction: column;
+	max-width: 767px;
+	flex-wrap: nowrap;
+}
+	.advantages .container .item {
+
+	width: 290px;
+	height: 200%;
+	padding: 30px;
+	margin: 10px;
+}	
+.advantages .container_about img {
+	display: none;
+}
+}
+
+.advantages {
+	background-color: white;
+	background-image: url('images/fon.png');
+	background-position: strech;
+	padding: 9% 11% 13%;
+	background-size: cover;
+}
+
+.advantages .container {
+	display: flex;
+	background-color: white;
+	flex-wrap: wrap;
+}
+
+.advantages .container_about {
+	display: flex;
+	background-color: white;
+	margin-top: 100px;
+}
+
+.advantages .container .item {
+	border: 1px solid #EBEBEB;
+	border-left-color: #00B2FF;
+	width: 47%;
+	height: 200%;
+	padding: 50px;
+	margin: 10px;
+}	
+
+.advantages .container .item:hover {
+	background-color:#00B2FF;
+	cursor:pointer;
+}	
+
+.advantages .container .item:hover h4 {
+	color: white;
+}
+
+.advantages .container .item:hover p {
+	color: white;
+}
+
+.advantages .container_about .item h3{
+	font-size: 34px;
+	color: #666666;
+}	
+
+.advantages .container .item h4{
+	font-size: 24px;
+	color: #00B2FF;
+}	
+
+
+.advantages .container .item p{
+	font-family: 'PT Mono', monospace;
+	font-size: 16px;
+	color: #666666;
+}	
+
+.advantages .container_about .item p{
+	font-size: 16px;
+	color: #666666;
+}	
+
+.advantages .container_about button{
+	border: 1px solid #00B2FF;
+	border-radius: 5px;
+	background-color: white;
+	font-size: 16px;
+	color: #00B2FF;
+	padding: 20px 50px;
+}	
+
+.advantages .container_about button:hover{
+	border: 1px solid white;
+	background-color: #00B2FF;
+	color: white;
+}	
 
 .services {
 	background-color: #1B2D37;
@@ -47,25 +146,26 @@
 	color: white;
 }
 
-.services .services_images {
+.services .container {
     display: flex;
     flex-wrap: nowrap;
+	justify-content: space-between;
 	width: 100%;
 }
 
-.services .services_images .image {
+.services .container .item {
     width: 100%;
     color: #fff;
-	margin-right: 30px;
+	/*margin-right: 30px;*/
 	height: 620px;
-	position: relative;
-
+	flex-basis: 30%; 
 }
 
-.services .services_images .image p {
-	position: absolute;
-	top: 50px;
-	left: 50px;
+
+.services .container .item .desc {
+	margin-top: 50px;
+	margin-left: 50px;
 	font-size: 20px;
 }
  
+
