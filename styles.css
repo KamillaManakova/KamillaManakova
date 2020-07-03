@@ -43,6 +43,7 @@
 	flex-direction: column;
 	max-width: 767px;
 	flex-wrap: nowrap;
+	
 }
 	.advantages .container .item {
 
@@ -56,9 +57,52 @@
 }
 }
 
+header {
+	height: 900px;
+	max-width: 1920px;
+	padding: 13% 9% 9%;
+	background-color: #1B2D37;
+}
+
+header h1{
+	font-weight: bold;
+	color: white;
+	font-size:80px;
+	letter-spacing: 2px;
+}
+
+header p{
+	font-family: 'PT Mono', monospace;
+	font-size: 22px;
+	color: white;
+}
+
+
+header .container{
+	display: flex;
+	justify-content: space-between;
+}
+
+header .container .item{
+	width:50%;
+}
+
+header .container .item button{
+	color: white;
+	background-color: #00B2FF;
+	padding: 20px 40px;
+	border-radius: 5px;
+	border: 0px;
+}
+
+
+header .container .item img{
+	width:100%;
+}
+
 .advantages {
 	background-color: white;
-	background-image: url('fon.png');
+	background-image: url('images/fon.png');
 	background-position: strech;
 	padding: 9% 11% 13%;
 	background-size: cover;
@@ -168,4 +212,80 @@
 	font-size: 20px;
 }
  
+.footer .container {
+	background-color: white;
+	height: 320px;
+	max-width: 1920px;
+	color: #1B2D37;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
 
+.footer .container .item-center{
+	flex-grow:0.1;
+}
+
+.footer .container .item-left {
+	height:180px;
+}
+
+.footer .container .item-left-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.footer .container .item h3{
+	color: #203C42;
+	font-size: 25px;
+}
+
+.footer .container .item h4{
+	color: #1B2D37;
+}
+
+.footer .container .item h5{
+	color: #788891;
+}
+
+
+.footer .container .item p{
+	color: #1B2D37;
+	opacity: 0.5;
+	font-family: 'PT Mono', monospace;
+}
+
+
+.footer .container .item-left .item-left-upper .inner-container-left{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	line-height:0;
+}
+
+.footer .container .item-left .item-left-bottom .inner-container-left{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+
+.footer .container .item-left .item-left-bottom img{
+	margin-right: 10px;
+}
+
+.footer .container .item .inner-container-center{
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer .bottom-container{
+	text-transform: uppercase;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	border-top: 1px solid rgba(98, 105, 98, 0.2);
+	opacity: 0.5;
+	font-family: 'PT Mono', monospace;
+	color: #1B2D37;
+}
