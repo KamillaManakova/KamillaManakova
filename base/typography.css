@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Roboto+Condensed&display=swap');
+
+* p {
+	font-family: 'PT Mono', monospace;
+}
+
+* h1, h2, h3, h4, h5 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: normal;
+}
+
+* button {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bold;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+button {
+	text-transform: uppercase;
+}
+
+.header h1 {
+	font-weight: bold;
+	font-size: 80px;
+	line-height: 94px;
+	letter-spacing: 0.07em;
+	text-transform: uppercase;
+}
+
+.header p {
+	font-size: 22px;
+	line-height: 34px;
+}
+
+.header__button {
+	font-size: 16px;
+	line-height: 19px;
+}
+
+
+.advantages__item h4 {
+	font-size: 24px;
+	line-height: 34px;
+}
+
+.advantages__item p{
+	font-size: 16px;
+	line-height: 22px;
+}	
+
+
+.about-company_text h3{
+	font-size: 34px;
+	line-height: 51px;
+}	
+
+.about-company_text p{
+	font-size: 16px;
+	line-height: 22px;
+
+}	
+
+.about-company__button{
+	font-size: 14px;
+	line-height: 16px;
+}	
+
+
+.services h2 {
+	font-size: 36px;
+	text-align: left;
+}
+
+.services__images p {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+}
+
+
+.footer__top-container {
+	font-size: 15px;
+}
+
+.footer__top-container h4 {
+	line-height: 16px;
+	text-transform: uppercase;
+}
+
+.footer__top-container p {
+	line-height: 25px;
+}
+
+.footer__bottom-container {
+	font-size: 13px;
+	line-height: 24px;
+	text-align: center;
+	text-transform: uppercase;
+}
