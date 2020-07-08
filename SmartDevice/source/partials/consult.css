@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Roboto+Condensed&display=swap');
+
+* {font-family: 'Roboto Condensed', sans-serif;}
+
+* {
+	box-sizing: border-box;
+}
+
+@media screen and (min-width: 1024px) {
+	.services .container {
+	flex-direction: row;
+
+}
+}
+
+@media (min-width: 768px)and (max-width: 1023px) {
+	.services .container {
+	container: column;
+	}
+
+.services .container .item {
+    max-width: 100%;
+	height: 256px;
+
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.services .container {
+	flex-direction: column;
+		.services .container .item {
+		flex-basis:100%
+	}
+.advantages .container_about {
+	display: flex;
+	background-color: white;
+	margin-top: 100px;
+}
+}
+
+	.advantages .container {
+	flex-direction: column;
+	max-width: 767px;
+	flex-wrap: nowrap;
+	
+}
+	.advantages .container .item {
+
+	width: 290px;
+	height: 200%;
+	padding: 30px;
+	margin: 10px;
+}	
+.advantages .container_about img {
+	display: none;
+}
+}
+
+
+.consult {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 670px;
+	max-width: 1920px;
+	color: white;
+	background-color: #00B2FF;
+	font-family: 'PT Mono', monospace;
+}
+
+.consult h3{
+	font-size: 36px;
+}
+
+.consult img{
+	height: 288px;
+	width: 511px;
+}
+ 
+ 

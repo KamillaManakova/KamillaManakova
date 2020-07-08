@@ -1,0 +1,67 @@
+
+
+/*
+	.advantages  {
+	flex-direction: column;
+	max-width: 767px;
+	flex-wrap: nowrap;
+	
+}
+	.advantages__item {
+
+	width: 290px;
+	height: 200%;
+	padding: 30px;
+	margin: 10px;
+}	
+.about-company img {
+	display: none;
+}
+}
+*/
+
+
+.advantages-about-company-fon {
+	background-image: url("../images/fon.png");
+	background-position: strech;
+	padding: 9% 11% 13%;
+	background-size: cover;
+}
+
+.advantages {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.advantages img{
+	width: 35px;
+	height: 35px;
+}
+
+.advantages__item {
+	width: 47%;
+	padding: 50px;
+	margin: 10px;
+	border: 1px solid #EBEBEB;
+	border-left: 2px solid #00B2FF;
+}	
+
+.advantages__item:hover {
+	cursor: pointer;
+}	
+
+
+.about-company {
+	display: flex;
+	margin-top: 100px;
+}
+
+.about-company__button {
+	border: 1px solid #00B2FF;
+	border-radius: 5px;
+	padding: 20px 50px;
+}	
+
+.about-company__button:hover{
+	border: 1px solid #FFF;
+}	
