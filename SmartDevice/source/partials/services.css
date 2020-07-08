@@ -1,0 +1,31 @@
+.services {
+	padding: 5% 11% 13%;
+}
+
+.services__images {
+   margin-top: 40px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.services__production {
+	background-image: url("../images/production.png"); 
+}
+
+.services__montage {
+	background-image: url("../images/montage.png"); 
+}
+
+.services__complect {
+	background-image: url("../images/complect.png"); 
+}
+
+.service__production, .services__montage, .services__complect {
+	height: 620px;
+	width: 370px;
+}
+
+.services__images p {
+	margin-top: 50px;
+	margin-left: 50px;
+}
