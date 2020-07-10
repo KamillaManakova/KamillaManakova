@@ -8,6 +8,20 @@
    justify-content: space-between;
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+	.services__images {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.services__images {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
 .services__production {
 	background-image: url("../images/production.png"); 
 }
@@ -20,12 +34,53 @@
 	background-image: url("../images/complect.png"); 
 }
 
-.service__production, .services__montage, .services__complect {
+.services__production, .services__montage, .services__complect {
+	width: 30%;
 	height: 620px;
-	width: 370px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.services__production, .services__montage, .services__complect {
+		width: 720px;
+		height: 256px;
+		margin-bottom: 23px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.services__production, .services__montage, .services__complect {
+		width: 290px;
+		height: 256px;
+		margin-bottom: 15px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 }
 
 .services__images p {
 	margin-top: 50px;
 	margin-left: 50px;
 }
+
+.services__button {
+	width: 63px;
+	height: 63px;
+	border: 0;
+	align-self: flex-end;
+	flex-shrink: 0;
+}
+
+.services__button:hover {
+	background-color: #FFF;
+	color: #00B2FF;
+	border: 1px solid #00B2FF;
+}
+
+
+
