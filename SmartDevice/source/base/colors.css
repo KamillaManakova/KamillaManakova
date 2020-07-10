@@ -16,6 +16,11 @@ a {
 	background-color: #00B2FF;
 }
 
+.header__button:hover {
+	color: #00B2FF;
+	background-color: #FFF;
+}
+
 
 .advantages {
 	background-color: #FFF;
@@ -46,20 +51,20 @@ a {
 	background-color: #FFF;
 }
 
-.about-company_text h3{
+.about-company_text h3 {
 	color: #666666;
 }	
 
-.about-company_text p{
+.about-company_text p {
 	color: #666666;
 }	
 
-.about-company__button{
-	background-color: FFF;
+.about-company__button {
+	background-color: #FFF;
 	color: #00B2FF;
 }	
 
-.about-company__button:hover{
+.about-company__button:hover {
 	background-color: #00B2FF;
 	color: #FFF;
 }	
@@ -71,6 +76,21 @@ a {
 
 .services h2, .services p {
 	color: #FFF;
+}
+
+.services__production, .services__montage, .services__complect {
+	background-blend-mode: overlay;
+	background-color: rgba(27, 45, 55, 0.7);
+}
+
+.services__button {
+	background-color: #00B2FF;
+	color: #FFF;
+}
+
+.services__button:hover {
+	background-color: #FFF;
+	color: #00B2FF;
 }
 
 
