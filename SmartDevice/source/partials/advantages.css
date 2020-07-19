@@ -1,41 +1,44 @@
 
-
-/*
-	.advantages  {
-	flex-direction: column;
-	max-width: 767px;
-	flex-wrap: nowrap;
-	
-}
-	.advantages__item {
-
-	width: 290px;
-	height: 200%;
-	padding: 30px;
-	margin: 10px;
-}	
-.about-company img {
-	display: none;
-}
-}
-*/
-
-
 .advantages-about-company-fon {
-	background-image: url("../images/fon.png");
+	background-image: url("../images/fon.svg");
 	background-position: strech;
 	padding: 9% 11% 13%;
 	background-size: cover;
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+	.advantages-about-company-fon {
+		padding: 7% 3% 10%;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.advantages-about-company-fon {
+		padding: 11% 5% 19%;
+	}
+}
+
 .advantages {
 	display: flex;
+	justify-content: center;
 	flex-wrap: wrap;
 }
 
-.advantages img{
-	width: 35px;
-	height: 35px;
+@media (min-width: 320px) and (max-width: 767px) {
+	.advantages {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.advantages img {
+	max-width: 36px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.advantages img {
+		max-width: 32px;
+	}
 }
 
 .advantages__item {
@@ -46,22 +49,44 @@
 	border-left: 2px solid #00B2FF;
 }	
 
+@media (min-width: 768px) and (max-width: 1023px) {
+	.advantages__item {
+		width: 46%;
+		padding: 30px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.advantages__item {
+		width: 100%;
+		padding: 20px;
+	}
+}
+/*смена цвета иконок*/
 .advantages__item:hover {
 	cursor: pointer;
 }	
 
 
 .about-company {
+	margin-top: 90px;
 	display: flex;
-	margin-top: 100px;
+}
+/*отступы скорректировать*/
+@media (min-width: 320px) and (max-width: 767px) {
+	.about-company img {
+		display: none;
+	}
 }
 
 .about-company__button {
 	border: 1px solid #00B2FF;
 	border-radius: 5px;
+	margin-top: 20px;
 	padding: 20px 50px;
 }	
 
-.about-company__button:hover{
+.about-company__button:hover {
 	border: 1px solid #FFF;
+	cursor: pointer;
 }	
