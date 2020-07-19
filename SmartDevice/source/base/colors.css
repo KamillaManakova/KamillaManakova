@@ -7,11 +7,11 @@ a {
 	background-color: #1B2D37;
 }
 
-.header h1, .header p{
+.header h1, .header p {
 	color: #FFF;
 }
 
-.header__button{
+.header__button {
 	color: #FFF;
 	background-color: #00B2FF;
 }
@@ -19,6 +19,11 @@ a {
 .header__button:hover {
 	color: #00B2FF;
 	background-color: #FFF;
+}
+
+.header__item a>p {
+	color: #FFF;
+	opacity: 0.5;
 }
 
 
@@ -37,6 +42,10 @@ a {
 .advantages__item:hover {
 	background-color:#00B2FF;
 }	
+
+.advantages__item:hover svg path {
+	fill: #FFF;
+}
 
 .advantages__item:hover h4 {
 	color: #FFF;
@@ -93,6 +102,26 @@ a {
 	color: #00B2FF;
 }
 
+
+.consult {
+	background-color: #00B2FF;
+	color: #FFF;
+}
+
+.consult input, .consult textarea {
+	background-color: rgba(0, 0, 0, 0.1);
+	color: #FFF
+}
+
+.consult__button {
+	background-color: #00B2FF;
+	color: #FFF;
+}
+
+.consult__button:hover {
+	background-color: #FFF;
+	color: #00B2FF;
+}
 
 .footer {
 	background-color: #FFF;
