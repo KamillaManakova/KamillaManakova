@@ -1,0 +1,128 @@
+a {
+  color: inherit;
+}
+.header {
+  background-color: #1b2d37;
+}
+.header h1,
+.header p {
+  color: #ffffff;
+}
+.header__button {
+  border: 1px solid #00b2ff;
+  background-color: #00b2ff;
+  color: #ffffff;
+}
+.header__button:hover {
+  background-color: #ffffff;
+  color: #00b2ff;
+}
+.header__item a > p {
+  color: rgba(255, 255, 255, 0.5);
+}
+.advantages {
+  background-color: #ffffff;
+}
+.advantages__item {
+  border: 1px solid #EBEBEB;
+  border-left: 2px solid #00b2ff;
+}
+.advantages__item h4 {
+  color: #00b2ff;
+}
+.advantages__item p {
+  color: #666666;
+}
+.advantages__item:hover {
+  background-color: #00b2ff;
+}
+.advantages__item:hover svg path {
+  fill: #ffffff;
+}
+.advantages__item:hover h4 {
+  color: #ffffff;
+}
+.advantages__item:hover p {
+  color: #ffffff;
+}
+.about-company {
+  background-color: #ffffff;
+}
+.about-company_text h3,
+.about-company_text p {
+  color: #666666;
+}
+.about-company__button {
+  border: 1px solid #00b2ff;
+  background-color: #ffffff;
+  color: #00b2ff;
+}
+.about-company__button:hover {
+  background-color: #00b2ff;
+  color: #ffffff;
+}
+.about-company__button:hover {
+  border: 1px solid #ffffff;
+}
+.services {
+  background-color: #1b2d37;
+}
+.services h2,
+.services p {
+  color: #ffffff;
+}
+.services__production,
+.services__montage,
+.services__complect {
+  background-blend-mode: overlay;
+  background-color: rgba(27, 45, 55, 0.7);
+}
+.services__button {
+  background-color: #00b2ff;
+  color: #ffffff;
+}
+.services__button:hover {
+  background-color: #ffffff;
+  color: #00b2ff;
+}
+.services__button:hover {
+  border: 1px solid #00b2ff;
+}
+.consult {
+  background-color: #00b2ff;
+  color: #ffffff;
+}
+.consult input,
+.consult textarea {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  border: 1px solid #00b2ff;
+}
+.consult input:focus,
+.consult textarea:focus {
+  border: 1px solid #ffffff;
+}
+.consult__button {
+  background-color: #00b2ff;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+.consult__button:hover {
+  background-color: #ffffff;
+  color: #00b2ff;
+}
+.consult__button:hover {
+  border: 1px solid #00b2ff;
+}
+.footer {
+  background-color: #ffffff;
+}
+.footer h4 {
+  color: #1b2d37;
+}
+.footer p {
+  color: rgba(27, 45, 55, 0.5);
+}
+.footer__bottom-container {
+  border-top: 1px solid rgba(98, 105, 98, 0.2);
+}
