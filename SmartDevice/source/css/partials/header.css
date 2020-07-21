@@ -1,0 +1,71 @@
+.header {
+  padding: 14% 9% 5% 6%;
+  background-image: url("../../images/ocean.svg");
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .header {
+    flex-direction: column-reverse;
+  }
+}
+.header p {
+  margin-left: 90px;
+}
+.header__button {
+  width: 407px;
+  height: 55px;
+  padding: 20px 40px;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 90px;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header__button {
+    width: 379px;
+    height: 55px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .header__button {
+    width: 287px;
+    height: 55px;
+  }
+}
+.header__button:hover {
+  cursor: pointer;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .header__button_desctop {
+    display: none;
+  }
+}
+.header__button_mobile {
+  display: none;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .header__button_mobile {
+    display: inline;
+  }
+}
+/*мигающий скролл вниз?*/
+.header__item a > p {
+  transform: rotate(-90deg);
+  margin-top: 100px;
+  margin-left: -40px;
+  width: 93px;
+  height: 16px;
+}
+@media (max-width: 1023px) {
+  .header__item a > p {
+    display: none;
+  }
+}
+.header__item img {
+  max-width: 120%;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .header__item {
+    max-width: 80%;
+  }
+}
