@@ -6,14 +6,7 @@
 		<meta lang = "ru">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<link href = "css/base/body.css" rel = "stylesheet">
-		<link href = "css/base/colors.css" rel = "stylesheet">
-		<link href = "css/base/typography.css" rel = "stylesheet">
-		<link href = "css/partials/header.css" rel = "stylesheet">
-		<link href = "css/partials/advantages.css" rel = "stylesheet">
-		<link href = "css/partials/services.css" rel = "stylesheet">
-		<link href = "css/partials/consult.css" rel = "stylesheet">
-		<link href = "css/partials/footer.css" rel = "stylesheet">
+		<link href = "css/style.min.css" rel = "stylesheet">
 
 		<title>Сайт Service Device</title>
 	</head>
@@ -41,7 +34,7 @@
 			</div>
 				
 			<div class = "header__item">
-				<img src = "images/panel.png" alt = "panel">
+				<img src = "img/panel.png" alt = "panel">
 			</div>
 
 		</header>
@@ -108,7 +101,7 @@
 			
 			<div class = "about-company"> 
 			
-				<img src ="images/2005.png" alt = "2005">
+				<img src ="img/2005.png" alt = "2005">
 						
 				<div class = "about-company_text">
 					<h3>О компании</h3>
@@ -156,18 +149,18 @@
 		
 		<div class = "consult" id = "consult">
 		
-			<img src = "images/plane.png" alt = "plane">
+			<img src = "img/plane.png" alt = "plane">
 			
-			<form class = "consult__form">
+			<form class = "consult__form" action = "#" enctype = "multipart/form-data">
 				<h3>Остались вопросы? Задайте их нам!</h3>
 				<p>Мы проконсультируем Вас бесплатно<p>
-				<input type = "text" value = "Имя">
-				<input type = "tel" value = "Телефон">
+				<input type = "text" name = "Name" value = "Имя">
+				<input type = "tel" name = "Phone" value = "Телефон">
 				<br>
 				<textarea>Ваш вопрос</textarea>
 				<br>
 				<button class = "consult__button">задать вопрос</button>
-				<input type = "checkbox" >Я согласен на обработку персональных данных
+				<span><input type = "checkbox" name = "Agreed" value = "Yes">Я согласен на обработку персональных данных</span>
 			</form>
 			
 		</div>
@@ -180,13 +173,13 @@
 				<div class = "footer__top-item">
 				
 					<div class = "footer__logo">
-						<a href = "#"><img src = "images/logo_black.svg" alt = "logo_black"></a>
+						<a href = "#"><img src = "img/logo_black.svg" alt = "logo_black"></a>
 					</div>
 					
 					<div class = "footer__socials">
-						<a href = "https://www.facebook.com/"><img src = "images/FB.png" alt = "facebook"></a>
-						<a href = "https://ok.ru/"><img src = "images/OK.png" alt = "odnoklassniki"></a>
-						<a href = "https://vk.com/"><img src = "images/VK.png" alt = "vkontakte"></a>
+						<a href = "https://www.facebook.com/"><img src = "img/FB.png" alt = "facebook"></a>
+						<a href = "https://ok.ru/"><img src = "img/OK.png" alt = "odnoklassniki"></a>
+						<a href = "https://vk.com/"><img src = "img/VK.png" alt = "vkontakte"></a>
 					</div>
 					
 				</div>
